@@ -1,0 +1,29 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Data (too large for git)
+data/
+*.npy
+*.pkl
+*.h5
+
+# Outputs
+outputs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
